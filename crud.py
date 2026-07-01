@@ -1,4 +1,3 @@
-# Pure DB operations — no HTTP concerns here
 from sqlalchemy.orm import Session
 import models, schemas
 import chromadb
