@@ -1,0 +1,49 @@
+[33mcommit efad9ff09e868e926c132d6711e981918f528118[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: akhilesh <raoaki123@gmail.com>
+Date:   Mon Jun 22 10:30:41 2026 +0530
+
+    Initial commit - Agentic AI project
+
+ .env                                         |   17 [32m+[m
+ .env.example                                 |   27 [32m+[m
+ README.md                                    |  102 [32m+[m
+ backend/.gitignore                           |   22 [32m+[m
+ backend/config.py                            |   58 [32m+[m
+ backend/main.py                              |  357 [32m+++[m
+ backend/requirements.txt                     |   13 [32m+[m
+ backend/services/agent_service.py            |  360 [32m+++[m
+ backend/services/llm_service.py              |  282 [32m++[m
+ backend/services/rag_service.py              |  329 [32m+++[m
+ backend/services/tokenizer_service.py        |   49 [32m+[m
+ frontend/.gitignore                          |   24 [32m+[m
+ frontend/README.md                           |   73 [32m+[m
+ frontend/eslint.config.js                    |   22 [32m+[m
+ frontend/index.html                          |   14 [32m+[m
+ frontend/package-lock.json                   | 3656 [32m++++++++++++++++++++++++++[m
+ frontend/package.json                        |   39 [32m+[m
+ frontend/postcss.config.js                   |    6 [32m+[m
+ frontend/public/favicon.svg                  |    1 [32m+[m
+ frontend/public/icons.svg                    |   24 [32m+[m
+ frontend/src/App.css                         |  184 [32m++[m
+ frontend/src/App.tsx                         |  396 [32m+++[m
+ frontend/src/assets/hero.png                 |  Bin [31m0[m -> [32m13057[m bytes
+ frontend/src/assets/react.svg                |    1 [32m+[m
+ frontend/src/assets/vite.svg                 |    1 [32m+[m
+ frontend/src/components/CodeViewer.tsx       |   88 [32m+[m
+ frontend/src/components/FlowDiagram.tsx      |  171 [32m++[m
+ frontend/src/components/MarkdownRenderer.tsx |  164 [32m++[m
+ frontend/src/index.css                       |  120 [32m+[m
+ frontend/src/main.tsx                        |   10 [32m+[m
+ frontend/src/pages/AgenticAssistant.tsx      |  326 [32m+++[m
+ frontend/src/pages/Dashboard.tsx             |  224 [32m++[m
+ frontend/src/pages/InferenceExplorer.tsx     |  516 [32m++++[m
+ frontend/src/pages/NotesTutor.tsx            |  642 [32m+++++[m
+ frontend/src/pages/SamplingPlayground.tsx    |  338 [32m+++[m
+ frontend/src/pages/StructuredOutput.tsx      |  342 [32m+++[m
+ frontend/src/services/api.ts                 |  215 [32m++[m
+ frontend/tailwind.config.js                  |   45 [32m+[m
+ frontend/tsconfig.app.json                   |   25 [32m+[m
+ frontend/tsconfig.json                       |    7 [32m+[m
+ frontend/tsconfig.node.json                  |   24 [32m+[m
+ frontend/vite.config.ts                      |    7 [32m+[m
+ 42 files changed, 9321 insertions(+)

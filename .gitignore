@@ -1,6 +1,43 @@
+<<<<<<< HEAD
 * 
 !*/
 !.gitignore
 !*.py
 !**/*.py
 !requirements.txt
+=======
+# Git Ignore configuration for GenAI Copilot
+
+# Credentials / Secrets
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Python env and cache
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+env/
+.pytest_cache/
+
+# Local Vector store database & uploaded PDFs
+backend/data/
+backend/data/uploads/
+backend/data/vector_store.json
+
+# Node dependencies and builds
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+.eslintcache
+
+# OS Files
+.DS_Store
+Thumbs.db
+>>>>>>> a564489a15e6bde60d5b6df3f2d57b22e88d9283
